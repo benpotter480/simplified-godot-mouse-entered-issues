@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://INSTANCED_SCENE.tscn" type="PackedScene" id=1]
+
+[node name="MAIN_SCENE" type="Node2D"]
+
+[node name="INSTANCED_SCENE" parent="." instance=ExtResource( 1 )]
+position = Vector2( 193, 59 )
+scale = Vector2( 0.64, 0.72 )
